@@ -1,7 +1,7 @@
-body{
-background-color: rgba(90, 84, 84, 0.74);
-}
-
-.cixa-principal{
-    background-color: rgb(33, 148, 248);
-}
+:root {
+    --cor-fundo: #01080E;
+    --cor-principal: #0B0D20 ;
+    --cor-secundaria: #212333;
+    --cor-destaque: #2BDEFD;
+    --cor-texto: #D7F9FF;
+  }
