@@ -6,12 +6,12 @@ const caixaPrincipal = document.querySelector("texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Pergunta 1",
-        alternativas: ["aternativa1","alternativa2","alternativa3"]
+        enunciado: "Por que 2+2=4?",
+        alternativas: ["por que deus quis","não é 4 ","porque é matematica"]
     },
     {
-        enunciado: "Pergunta 2",
-        alternativas: ["aternativa1","alternativa2","alternativa3"]
+        enunciado: "a mãe brigou com a filha poruqe estava bebada, quem estava bebadada",
+        alternativas: ["a mãe","a filha","Eu"]
     },
     {
         enunciado: "Pergunta 3",
@@ -23,3 +23,14 @@ const perguntas = [
     },
 
 ];
+
+let atual = 0;
+let perguntaAtual;
+
+function mostraPergunta(){
+perguntaatual = pergunta [atual];
+caixaPergunta.textContent = pergutaAtual.enunciadp;
+
+}
+
+mostraPergunta()
